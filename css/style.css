@@ -1,0 +1,257 @@
+body {
+  width: 1300px;
+  margin: 0 auto;
+  font-family: 'Shippori Mincho', serif;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.header_inner {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  color: #55bbbb;
+  margin: 15px 20px;
+  font-weight: bold;
+}
+
+.top {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.top img {
+  width: 100%;
+}
+.top_inner {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top_title {
+  font-size: 40px;
+  line-height: 230%;
+  font-weight: bold;
+}
+.top_title span {
+  font-size: 64px;
+}
+.top_title .color {
+  color: #55bbbb;
+}
+.top_recommend {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
+}
+.recommend_point {
+  background-color: #FF4384;
+  width: 100px;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recommend_point p {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+}
+.recommend_text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.recommend_text .text {
+  color: #55bbbb;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.recommend_text .price  {
+  color: #FF4384;
+  font-size: 30px;
+}
+.recommend_text .price span {
+  font-size: 50px;
+}
+.top_pickup {
+  width: 500px;
+  height: 80px;
+  background-color: #FF4384;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  filter: drop-shadow(0 0 10px #ff4384);
+}
+.top_pickup p {
+  color: white;
+  font-size: 25px;
+}
+.excl {
+  font-size: italic;
+}
+
+.intoroduction {
+  background-color: #55bbbb;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.triangle {
+  width: 0px;
+  border-color: #55bbbb;
+  border-style: solid;
+  border-width: 30px;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  margin: 0 auto;
+}
+.intoroduction p {
+  color: white;
+  font-size: 25px;
+}
+.intoroduction p span {
+  font-size: 40px;
+}
+
+.caption {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caption_inner {
+  display: flex;
+  justify-content: center;
+}
+.caption_box {
+  width: 500px;
+  height: 250px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border: 1px solid #55bbbb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+}
+.caption_list {
+  width: 75%;
+  height: 35px;
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #55bbbb;
+}
+.list_text {
+  font-size: 25px;
+  color: #55bbbb;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.comment {
+  width: 100%;
+  height: 300px;
+  background-color: #55bbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.comment_inner p {
+  color: white;
+  font-size: 25px;
+  line-height: 250%;
+  text-align: center;
+}
+.comment_inner .rogo {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  margin: 15px 20px;
+  font-weight: bold;
+}
+.comment_pickup {
+  font-size: 40px;
+}
+.comment_recommend {
+  font-size: 40px;
+  color: #FF4384;
+}
+
+.point {
+  width: 100%;
+  height: auto;
+}
+.point_inner {
+  width: 1000px;
+  height: 100%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+}
+.point_box {
+  position: relative;
+  width: 30%;
+  height: 200px;
+  margin: 0 10px;
+  border: 1px solid #55bbbb;
+  display: flex;
+  align-items: flex-end;
+}
+.point_title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  color: #55bbbb;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background-color: white;
+  padding: 0 10px;
+  transform: translateY(-50%);
+}
+.point_pickup {
+  margin: 0 6px 10px 10px;
+}
+.point_pickup .pickup {
+  margin-bottom: 20px;
+  font-size: 25px;
+  line-height: 170%;
+}
+.point_pickup .pickup span {
+  color: #FF4384;
+}
+.point_pickup .recommend {
+  font-size: 15px;
+  line-height: 170%;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+}
+footer div {
+  padding: 30px 0;
+}
+footer p {
+  text-align: center;
+  font-size: 15px;
+}
